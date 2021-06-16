@@ -78,7 +78,7 @@ type = "lunr"
 # max index length of the chunked content
 contentLength = 4000
 # placeholder of the search bar
-placeholder = ""
+placeholder = "Search"
 #  max number of results length
 maxResultLength = 10
 #  snippet length of the result
@@ -103,7 +103,7 @@ mobileMode = "auto"
 # URL of the LOGO
 logo = ""
 # title name
-name = "WebDevEnv"
+name = "Web Dev Env"
 # you can add extra information before the name (HTML format is supported), such as icons
 pre = ""
 # you can add extra information after the name (HTML format is supported), such as icons
@@ -161,7 +161,7 @@ avatarURL = "/images/avatar.png"
 #  title shown in home page (HTML format is supported)
 title = "Web Developer Environment"
 # subtitle shown in home page
-subtitle = "The Burmese Developer"
+subtitle = "The Burmese Full Stack Developer"
 # whether to use typeit animation for subtitle
 typeit = false
 # whether to show social links
@@ -253,7 +253,7 @@ hiddenFromSearch = false
 #  whether to enable twemoji
 twemoji = false
 # whether to enable lightgallery
-lightgallery = false
+lightgallery = true
 #  whether to enable the ruby extended syntax
 ruby = true
 #  whether to enable the fraction extended syntax
@@ -312,28 +312,28 @@ fullscreen = true
 enable = true
 Twitter = true
 Facebook = true
-Linkedin = false
-Whatsapp = true
+Linkedin = true
+Whatsapp = false
 Pinterest = false
 Tumblr = false
-HackerNews = false
-Reddit = false
-VK = false
+HackerNews = true
+Reddit = true
+VK = true
 Buffer = false
 Xing = false
-Line = true
+Line = false
 Instapaper = false
 Pocket = false
 Digg = false
 Stumbleupon = false
 Flipboard = false
-Weibo = true
+Weibo = false
 Renren = false
-Myspace = true
+Myspace = false
 Blogger = true
 Baidu = false
 Odnoklassniki = false
-Evernote = true
+Evernote = false
 Skype = false
 Trello = false
 Mix = false
@@ -397,17 +397,18 @@ outlined = false
 enable = false
 #  Utterances comment config
 [params.page.comment.utterances]
-enable = false
+enable = true
 # owner/repo
-repo = ""
+repo = "amm834/webdevenv"
 issueTerm = "pathname"
 label = ""
 lightTheme = "github-light"
-darkTheme = "github-dark"
+darkTheme = "github-dark" 
+
 #  Third-party library config
 [params.page.library]
 [params.page.library.css]
-# someCSS = "some.css"
+ #app = ["css/app.css"]
 # located in "assets/"
 # Or
 # someCSS = "https://cdn.example.com/some.css"
