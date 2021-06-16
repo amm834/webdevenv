@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://web-dev-env.netlify.app/"
 languageCode = "mmr"
 title = "Web Developer Environment"
 theme = "LoveIt"
