@@ -11,7 +11,7 @@ description = "Web Developer Environment <@webdevenv>'s Site"
 # site keywords
 keywords = ["wde", "WebDevEnv","Developer","Burmnese","Myanmar"]
 # site default theme ("light", "dark", "auto")
-defaultTheme = "auto"
+defaultTheme = "dark"
 # public git repo url only then enableGitInfo is true
 gitRepo = "https://github.com/amm834/webdevenv"
 #  which hash function used for SRI, when empty, no SRI is used
