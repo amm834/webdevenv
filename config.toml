@@ -16,7 +16,7 @@ defaultTheme = "dark"
 gitRepo = "https://github.com/amm834/webdevenv"
 #  which hash function used for SRI, when empty, no SRI is used
 # ("sha256", "sha384", "sha512", "md5")
-fingerprint = "sha256"
+fingerprint = ""
 #  date format
 dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
@@ -403,15 +403,15 @@ repo = "amm834/webdevenv"
 issueTerm = "pathname"
 label = ""
 lightTheme = "github-light"
-darkTheme = "github-dark" 
+darkTheme = "photon-dark" 
 
 #  Third-party library config
 [params.page.library]
 [params.page.library.css]
- #app = ["css/app.css"]
+ app = "app.css"
 # located in "assets/"
 # Or
-# someCSS = "https://cdn.example.com/some.css"
+# someCSS = "css"
 [params.page.library.js]
 # someJavascript = "some.js"
 # located in "assets/"
